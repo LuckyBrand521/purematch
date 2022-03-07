@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "662738119684",
+    "firebase_url": "https://pm-match-mobile.firebaseio.com",
+    "project_id": "pm-match-mobile",
+    "storage_bucket": "pm-match-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662738119684:android:2ecf11fb3743b8b6159951",
+        "android_client_info": {
+          "package_name": "org.purematch.purematch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662738119684-6dctlojsmk03d7s525p2qc9r6vbjk17f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChWEH1R9mjUUVmCM4PfuWyHXiZ_gFnYLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662738119684-6dctlojsmk03d7s525p2qc9r6vbjk17f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "662738119684-2g9l5s9nd7tgbh436k5utklotoh3q5g8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.purematch.app",
+                "app_store_id": "1506240839"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

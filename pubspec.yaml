@@ -1,0 +1,247 @@
+name: pure_match
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.7.5+14
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  transparent_image: ^1.0.0
+  flutter_staggered_grid_view: ^0.4.0
+  flutter_masked_text: ^0.8.0
+  http: ^0.13.1
+  sailor: ^0.7.1
+  intl: ^0.17.0
+  socket_io_client: ^0.9.12
+  shared_preferences: ^2.0.5
+  image_picker: ^0.7.4
+  image_cropper: ^1.4.0
+  cached_network_image: ^3.0.0
+  flutter_keyboard_visibility: ^5.0.1
+  url_launcher: ^6.0.3
+  flutter_platform_widgets: ^1.4.1
+  share: ^2.0.1
+  location: ^4.1.1
+  geocoder: ^0.2.1
+  tutorial_coach_mark: ^1.0.0
+  carousel_slider: ^3.0.0
+  flutter_linkify: ^5.0.2
+  flutter_tindercard: ^0.2.0
+  flutter_inapp_purchase: ^5.0.1
+  amplitude_flutter: ^3.1.0
+  flutter_screenutil: ^5.0.0
+  firebase_messaging: ^9.1.3
+  firebase_auth: ^1.1.2
+  badges: ^1.2.0
+  apple_sign_in: ^0.1.0
+  icon_shadow: ^1.0.1
+  flutter:
+    sdk: flutter
+  firebase_core: ^1.1.0
+  firebase_analytics: ^8.0.2
+  flutter_local_notifications: ^5.0.0+1
+  shadowed_image: ^1.0.3
+  vibration: ^1.7.3
+  flutter_slidable: ^0.6.0
+  photo_view: ^0.11.1
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  intl_phone_number_input: ^0.7.0+1
+  flutter_app_badger: ^1.2.0
+  infinite_scroll_pagination: ^3.1.0
+  waterfall_flow: ^3.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#  intl_phone_number_input:
+#    git: https://github.com/AndreasB115/intl_phone_number_input
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/images/logo.png
+   - assets/images/facebook.png
+   - assets/images/phone_icon.png
+   - assets/images/verification_icon.png
+   - assets/images/Pure_Match_Draft_5.png
+   - assets/images/verified_icon.png
+   - assets/images/flags/us.png
+   - assets/images/phone_small.png
+   - assets/images/upgrade_coin.png
+   - assets/images/plus_circle.png
+   - assets/images/ruler_icon_black.png
+   - assets/images/church_icon.png
+   - assets/images/gem_medium_icon.png
+   - assets/images/kid_icon.png
+   - assets/images/profile_options.png
+   - assets/images/gem_transparent.png
+   - assets/images/Pure_match_logo.jpeg
+   - assets/images/welcomepremium.png
+   - assets/images/transparent_logo.png
+   - assets/images/Pure_Match_Text_Web.png
+   - assets/images/premium_hearts.png
+   - assets/images/Pure_Match_Text.png
+   - assets/images/premium_subscriptions_card.png
+   - assets/images/match_icon.png
+   - assets/images/nav_feed_active.png
+   - assets/images/nav_feed_inactive.png
+   - assets/images/nav_match_inactive.png
+   - assets/images/nav_messaging_active.png
+   - assets/images/nav_messaging_inactive.png
+   - assets/images/match_icon_active.png
+   - assets/images/Swipe.png
+   - assets/images/edit-pen.png
+   - assets/images/Settings_icon.png
+   - assets/images/window.png
+   - assets/images/x_icon.png
+   - assets/images/cross_icon.png
+   - assets/images/book_icon.png
+   - assets/images/bag_icon.png
+   - assets/images/edit_icon.png
+   - assets/images/separator_img.png
+   - assets/images/heart_double_icon.png
+   - assets/images/maybe_icon.png
+   - assets/images/icon_help.png
+   - assets/images/icon_logout.png
+   - assets/images/icon_notifcation.png
+   - assets/images/icon_profile.png
+   - assets/images/icon_rewards.png
+   - assets/images/icon_settings.png
+   - assets/images/icon_dating.png
+   - assets/images/chevron_down.png
+   - assets/images/img_valen.png
+   - assets/images/nav_gem_active.png
+   - assets/images/nav_gem_inactive.png
+   - assets/images/pn_mailbox.png
+   - assets/images/map_tutorial.png
+   - assets/images/overlay_light.png
+   - assets/images/location_prompt_tutorial.png
+   - assets/images/map_pinned.png
+   - assets/images/userpic.png
+   - assets/images/location_icon.png
+   - assets/images/comment_icon.png
+   - assets/images/heart_icon_filled.png
+   - assets/images/heart_icon.png
+   - assets/images/share_icon.png
+   - assets/images/img_spring.png
+   - assets/images/premium_Membership.png
+   - assets/images/Premium_Crown.png
+   - assets/images/setting_logo.png
+   - assets/images/search_bar.png
+   - assets/images/img_spring2.png
+   - assets/images/nav_bar_profile_confirm.png
+   - assets/images/dark_logo.png
+   - assets/images/plus-circle2.png
+   - assets/images/Pure_Match_Logo_(blue_transparent).png
+   - assets/images/gsuite.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          style: normal
+          weight: 400
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          style: normal
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          style: normal
+          weight: 600
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          style: normal
+          weight: 700
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+          style: normal
+          weight: 800
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+          style: normal
+          weight: 400
+        - asset: assets/fonts/Roboto-Italic.ttf
+          style: italic
+          weight: 400
+        - asset: assets/fonts/Roboto-Medium.ttf
+          style: normal
+          weight: 500
+        - asset: assets/fonts/Roboto-MediumItalic.ttf
+          style: italic
+          weight: 500
+        - asset: assets/fonts/Roboto-Bold.ttf
+          style: normal
+          weight: 700
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/Roboto-Black.ttf
+          style: normal
+          weight: 900
+        - asset: assets/fonts/Roboto-BlackItalic.ttf
+          style: italic
+          weight: 900
+    - family: AvenirNext
+      fonts:
+        - asset: assets/fonts/avenir_next/AvenirNext-Regular.ttf
+          style: normal
+          weight: 400
+        - asset: assets/fonts/avenir_next/AvenirNext-Medium.ttf
+          style: normal
+          weight: 500
+        - asset: assets/fonts/avenir_next/AvenirNext-DemiBold.ttf
+          style: normal
+          weight: 600
+        - asset: assets/fonts/avenir_next/AvenirNext-Bold.ttf
+          style: normal
+          weight: 700
+        - asset: assets/fonts/avenir_next/AvenirNext-Heavy.ttf
+          style: normal
+          weight: 800
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
